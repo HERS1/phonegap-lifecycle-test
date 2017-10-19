@@ -1,7 +1,10 @@
 var paused_count =0;
 var resumed_count = 0;
 var launched_count = 0;
+var key = "pen";
+var value = "blue";
 
+windows.localStorage.setItem (key, value );
 //eventlistener
 document.addEventListener("deviceready", onDeviceReady, false);
 		

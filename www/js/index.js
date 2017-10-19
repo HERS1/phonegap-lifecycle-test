@@ -6,6 +6,7 @@ var value = "blue";
 
 windows.localStorage.setItem (key, value );
 var value = window.localStorage.getItem(key);
+
 //eventlistener
 document.addEventListener("deviceready", onDeviceReady, false);
 		

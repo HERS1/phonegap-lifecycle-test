@@ -29,6 +29,7 @@ function updateDisplay() {
 	updateDisplay();
 	    
 	alert("device ready");
+	alert(key);
     }
 
 //on pause function alerts pause onto screen
